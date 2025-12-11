@@ -145,7 +145,8 @@ export function ThreeMovesSection() {
                   background: 'var(--glass-bg)',
                   backdropFilter: 'blur(var(--glass-blur))',
                   border: '1px solid rgba(255, 255, 255, 0.08)',
-                  boxShadow: `0 8px 32px ${move.glowColor}, inset 0 1px 0 0 rgba(255, 255, 255, 0.1)`
+                  boxShadow: `0 8px 32px ${move.glowColor}, inset 0 1px 0 0 rgba(255, 255, 255, 0.1)`,
+                  transformStyle: 'preserve-3d'
                 }}
                 whileInView={{
                   scale: [1, 1.02, 1]
@@ -162,7 +163,6 @@ export function ThreeMovesSection() {
                   rotateX: 2,
                   transition: { duration: 0.3 }
                 }}
-                style={{ transformStyle: 'preserve-3d' }}
               >
                 {/* Icon */}
                 <motion.div
