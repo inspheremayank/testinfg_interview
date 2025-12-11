@@ -1,0 +1,23 @@
+/* =======================================
+   Backgroundorb
+   What this file does:
+   - Styles for the Backgroundorb component/section.
+
+   Customize here:
+   - Colors -> edit variables in src/styles/_tokens.scss (CUSTOMIZATION ZONE)
+   - Typography -> edit --font-heading / --font-body in tokens
+   - Spacing -> adjust padding/margin values below or tokens
+
+   Do not change:
+   - Animation hook classes starting with `.js-` (used by GSAP)
+   - Structural container classes that control overflow/scroll behavior
+======================================= */
+
+/* component: backgroundOrb */
+
+.backgroundOrb {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+}
+

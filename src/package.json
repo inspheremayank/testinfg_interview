@@ -1,0 +1,42 @@
+{
+  "name": "one-media-works-landing",
+  "version": "1.0.0",
+  "description": "Dark neon glassmorphism landing page for One Media Works",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext js,jsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,scss,md}\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "gsap": "^3.12.5",
+    "motion": "^10.16.0",
+    "lucide-react": "^0.294.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "sass": "^1.69.5",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^4.0.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.1.1"
+  },
+  "keywords": [
+    "landing-page",
+    "react",
+    "tailwind",
+    "gsap",
+    "glassmorphism",
+    "neon"
+  ],
+  "author": "One Media Works",
+  "license": "MIT"
+}

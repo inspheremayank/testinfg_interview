@@ -1,0 +1,25 @@
+# create .gitignore with typical Node/Vite ignores
+@"
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+
+# Vite
+dist/
+.vite/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+"@ | Out-File -Encoding utf8 .gitignore

@@ -1,0 +1,29 @@
+/* =======================================
+   Title
+   What this file does:
+   - Styles for the Title component/section.
+
+   Customize here:
+   - Colors -> edit variables in src/styles/_tokens.scss (CUSTOMIZATION ZONE)
+   - Typography -> edit --font-heading / --font-body in tokens
+   - Spacing -> adjust padding/margin values below or tokens
+
+   Do not change:
+   - Animation hook classes starting with `.js-` (used by GSAP)
+   - Structural container classes that control overflow/scroll behavior
+======================================= */
+
+/* component: title */
+
+.title {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-xs);
+  color: var(--text-primary);
+}
+
+.title {
+  font-size: var(--text-5xl);
+  margin-bottom: var(--space-md);
+  color: var(--text-primary);
+}
+

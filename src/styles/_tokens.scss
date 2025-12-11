@@ -1,0 +1,127 @@
+/* =======================================
+   Tokens
+   What this file does:
+   - Styles for the Tokens component/section.
+
+   Customize here:
+   - Colors -> edit variables in src/styles/_tokens.scss (CUSTOMIZATION ZONE)
+   - Typography -> edit --font-heading / --font-body in tokens
+   - Spacing -> adjust padding/margin values below or tokens
+
+   Do not change:
+   - Animation hook classes starting with `.js-` (used by GSAP)
+   - Structural container classes that control overflow/scroll behavior
+======================================= */
+
+/* _tokens.scss - extracted from index.css :root */
+:root {
+  --bg: #0b0e12;
+  --bg-gradient-start: #0b0e12;
+  --bg-gradient-mid: #1a1d2e;
+  --bg-gradient-end: #0b0e12;
+  --glass-bg: #ffffff0a;
+  --glass-bg-strong: #ffffff14;
+  --glass-border: #ffffff0d;
+  --glass-border-hover: #ffffff1a;
+  --glass-blur: 14px;
+  --glass-blur-strong: 20px;
+  --primary-deep: #1e40af;
+  --primary: #3b82f6;
+  --primary-light: #60a5fa;
+  --neon: #22d3ee;
+  --neon-dark: #06b6d4;
+  --accent-purple: #a855f7;
+  --accent-pink: #ec4899;
+  --accent-orange: #f59e0b;
+  --accent-green: #10b981;
+  --accent-red: #ef4444;
+  --text-primary: #fffffffa;
+  --text-secondary: #ffffffd9;
+  --text-muted: #ffffffb8;
+  --text-subtle: #fff9;
+  --text-faint: #ffffff80;
+  --gradient-primary: linear-gradient(135deg, #3b82f6, #22d3ee);
+  --gradient-purple-pink: linear-gradient(135deg, #a855f7, #ec4899);
+  --gradient-orange-red: linear-gradient(135deg, #f59e0b, #ef4444);
+  --gradient-green-cyan: linear-gradient(135deg, #10b981, #22d3ee);
+  --gradient-pink-orange: linear-gradient(135deg, #ec4899, #f97316);
+  --glow-primary: 0 0 20px #22d3ee4d;
+  --glow-primary-strong: 0 0 30px #22d3ee99;
+  --glow-purple: 0 0 20px #a855f74d;
+  --glow-pink: 0 0 20px #ec48994d;
+  --glow-green: 0 0 20px #10b9814d;
+  --shadow-glass: 0 8px 32px #0003, inset 0 1px 0 0 #ffffff14;
+  --shadow-glass-hover: 0 12px 40px #0000004d, inset 0 1px 0 0 #ffffff1a;
+  --shadow-cta: 0 10px 40px #22d3ee4d;
+  --shadow-cta-hover: 0 15px 50px #22d3ee80;
+  --space-xs: .5rem;
+  --space-sm: .75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+  --section-padding-y: 8rem;
+  --section-padding-y-mobile: 4rem;
+  --section-padding-x: 1.5rem;
+  --text-xs: .75rem;
+  --text-sm: .875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+  --text-8xl: 6rem;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --leading-tight: 1.1;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+  --radius-sm: .5rem;
+  --radius-md: .75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-full: 9999px;
+  --motion-duration-instant: .1s;
+  --motion-duration-fast: .2s;
+  --motion-duration-normal: .3s;
+  --motion-duration-slow: .4s;
+  --motion-duration-slower: .6s;
+  --motion-duration-slowest: .8s;
+  --motion-duration-very-slow: 1.2s;
+  --motion-ease-linear: linear;
+  --motion-ease-in: cubic-bezier(.4, 0, 1, 1);
+  --motion-ease-out: cubic-bezier(0, 0, .2, 1);
+  --motion-ease-in-out: cubic-bezier(.4, 0, .2, 1);
+  --motion-ease-power3-out: cubic-bezier(.22, 1, .36, 1);
+  --motion-ease-power4-out: cubic-bezier(.76, 0, .24, 1);
+  --motion-ease-expo-out: cubic-bezier(.19, 1, .22, 1);
+  --motion-ease-back-out: cubic-bezier(.34, 1.56, .64, 1);
+  --motion-delay-0: 0s;
+  --motion-delay-1: 50ms;
+  --motion-delay-2: .1s;
+  --motion-delay-3: .15s;
+  --motion-delay-4: .2s;
+  --z-base: 0;
+  --z-dropdown: 10;
+  --z-sticky: 20;
+  --z-overlay: 30;
+  --z-modal: 40;
+  --z-splash: 50;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}

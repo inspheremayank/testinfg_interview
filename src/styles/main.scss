@@ -1,0 +1,34 @@
+/* =======================================
+   Main
+   What this file does:
+   - Styles for the Main component/section.
+
+   Customize here:
+   - Colors -> edit variables in src/styles/_tokens.scss (CUSTOMIZATION ZONE)
+   - Typography -> edit --font-heading / --font-body in tokens
+   - Spacing -> adjust padding/margin values below or tokens
+
+   Do not change:
+   - Animation hook classes starting with `.js-` (used by GSAP)
+   - Structural container classes that control overflow/scroll behavior
+======================================= */
+
+/* main.scss - imports tokens and components */
+@use './_tokens' as *;
+
+@use 'components/_header';
+@use 'components/_splash';
+@use 'components/_title';
+@use 'components/_card';
+@use 'components/_backgroundOrb';
+
+@use './_base';
+:root {
+  --font-primary: "DM Sans", sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-primary);
+}
+
